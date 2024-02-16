@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&family=Protest+Revolution&display=swap');
+
+:root {
+    --main-body: #2f2f2f;
+    --secondary-body: #3a3a3a;
+
+    --main-text: #fff;
+    --secondary-text: #c7c7c7;
+    --main-font: "Protest Revolution", sans-serif;
+
+    --green-main: #00ff22;
+    --yellow-main: #f2e400;
+}
