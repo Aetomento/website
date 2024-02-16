@@ -1,0 +1,48 @@
+.sideNav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: var(--secondary-body);
+    width: 10%;
+}
+
+.sideNav__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.sideNav__list__item {
+    padding: .5rem;
+}
+
+.link-undecorate {
+    color: var(--main-text);
+    text-decoration: none;
+}
+
+.sideNav__pulley {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .sideNav { display: none }
+    .sideNav__pulley {
+        display: block;
+        background-color: var(--secondary-body);
+        padding: .5rem;
+    }
+}
+
+.pulley__absolute {
+    position: absolute;
+}
+
+.sideNav__open {
+    width: 100%;
+    display: unset;
+    overflow: hidden;
+}
