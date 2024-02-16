@@ -1,0 +1,14 @@
+@import "root.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    word-spacing: .125rem;
+}
+
+.body {
+    background-color: var(--main-body);
+    color: var(--main-text);
+    font-family: var(--main-font);
+    height: 100vh;
+}
