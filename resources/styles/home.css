@@ -93,4 +93,7 @@
     .divider { width: 100%; }
     .team { flex-wrap: wrap; }
     .privacy__para { width: 100% }
+    .standardHeight {
+        height: unset;
+    }
 }
